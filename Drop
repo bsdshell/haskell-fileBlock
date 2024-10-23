@@ -1,0 +1,14 @@
+ 
+                          fileBlock "/tmp/x.x" "==" -printall                    => Print all block from file 
+                          fileBlock "/tmp/x.x" "==" -printindex 1                => Print index 1 from file 
+                          fileBlock "/tmp/x.x" "==" -printhead                   => Print all block from file 
+                          fileBlock "/tmp/x.x" "==" -printlast                   => Print all block from file 
+                          fileBlock "/tmp/x.x" "==" -drophead                    => Drop the first block from file 
+                          fileBlock "/tmp/x.x" "==" -droplast                    => Drop the last block from file 
+                          fileBlock "/tmp/x.x" "==" -dropindex                   => Delete index block from file 
+                          fileBlock "/tmp/x.x" "==" -append  "str"               => Append str to file 
+                          fileBlock "/tmp/x.x" "==" -prepend "str"               => Prepend str to file 
+                          fileBlock "/tmp/x.x" "==" -appendlist "[\"a\", \"b\"]" => Append Haskell list to file 
+                          fileBlock "/tmp/x.x" "==" -size                        => Print the numbers of blocks in file 
+
+                       

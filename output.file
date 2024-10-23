@@ -1,0 +1,14 @@
+.
+..
+.stack-work
+CHANGELOG.md
+LICENSE
+README.md
+Setup.hs
+fileBlock.cabal
+install.sh
+run.sh
+src
+stack.yaml
+stack.yaml.lock
+stack_install.sh
